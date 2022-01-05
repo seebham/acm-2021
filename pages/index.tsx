@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <main>
         <div className="text-3xl">ACM Student Chapter - YCCE</div>
       </main>
+      <Footer />
     </div>
   );
 };
