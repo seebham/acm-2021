@@ -15,7 +15,7 @@ const Header = () => {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span className="ml-3 text-xl">ACM Student Chapter - YCCE</span>
+          <span className="ml-3 text-xl">YCCE ACM Student Chapter</span>
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a className="mr-5 link">First Link</a>
