@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.link {
+  @apply hover:text-gray-900 hover:cursor-pointer;
+}
+
 html,
 body {
   padding: 0;
