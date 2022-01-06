@@ -9,7 +9,7 @@ body {
   font-family: "Plus Jakarta Display", sans-serif;
 }
 
-// Custom classes
+/* Custom classes */
 
 .link {
   @apply hover:text-gray-900 hover:cursor-pointer;
