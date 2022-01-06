@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.link {
-  @apply hover:text-gray-900 hover:cursor-pointer;
-}
-
 html,
 body {
   padding: 0;
@@ -13,11 +9,8 @@ body {
   font-family: "Plus Jakarta Display", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+// Custom classes
 
-* {
-  box-sizing: border-box;
+.link {
+  @apply hover:text-gray-900 hover:cursor-pointer;
 }
