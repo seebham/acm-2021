@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import EventCard from "../components/EventCard";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -15,6 +16,9 @@ const Home: NextPage = () => {
       <Header />
       <main>
         <div className="text-3xl">ACM Student Chapter - YCCE</div>
+        <section className="h-screen flex flex-col">
+          <EventCard />
+        </section>
       </main>
       <Footer />
     </div>
