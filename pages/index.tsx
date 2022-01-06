@@ -16,8 +16,14 @@ const Home: NextPage = () => {
       <Header />
       <main>
         <div className="text-3xl">ACM Student Chapter - YCCE</div>
-        <section className="h-screen flex flex-col">
-          <EventCard />
+        <section className="container mx-auto h-screen flex flex-col py-4 px-2 items-center">
+          <EventCard
+            date="22-11-2020"
+            title="16 Hours SDP on ReactJS and NodeJS"
+            speaker={"Mr. Ahfaz Rahman"}
+            desc="16 Hrs SDP on React and Node JS was organised by the department. Mr. Ahafaz Rahaman from TCS Nagpur was the resource person"
+            attendees={90}
+          />
         </section>
       </main>
       <Footer />
