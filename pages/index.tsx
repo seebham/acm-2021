@@ -5,6 +5,7 @@ import EventCard from "../components/EventCard";
 import EventSection from "../components/EventSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import past_events from "../data/past_events";
 // import EventsIllustration from "images/undraw_pair_programming_re_or4x.png";
 
 const Home: NextPage = () => {

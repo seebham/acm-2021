@@ -1,6 +1,7 @@
 import EventCard from "./EventCard";
 import upcoming_events from "../data/upcoming_events";
 import PastEvent from "./PastEvent";
+import past_events from "../data/past_events";
 
 const EventSection = () => {
   return (
@@ -29,7 +30,20 @@ const EventSection = () => {
           Past Events
         </h4>
         <div className="mt-4 -my-8 divide-y-2 divide-gray-100">
-          <PastEvent
+          {past_events.map((event) => {
+            return (
+              <PastEvent
+                title={event.title}
+                date={event.date}
+                desc={event.desc}
+                attendees={event.attendees}
+                speaker={event.speaker}
+                type={event.type}
+                key={event.date}
+              />
+            );
+          })}
+          {/* <PastEvent
             title="Career Opportunities Abroad"
             date="03-06-2020"
             type="Webinar"
@@ -38,7 +52,7 @@ const EventSection = () => {
             speaker="Mr.Swarup Gandewar - ICAD, Nagpur, Mr.Swarup Gandewar - ICAD, Nagpur, Mr.Swarup Gandewar - ICAD, Nagpur, Mr.Swarup Gandewar - ICAD, Nagpur, Mr.Swarup Gandewar - ICAD, Nagpur"
           />
           <PastEvent />
-          <PastEvent />
+          <PastEvent /> */}
         </div>
       </div>
     </div>
