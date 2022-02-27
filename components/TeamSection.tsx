@@ -34,7 +34,7 @@ const Member = ({
 
 const TeamSection = () => {
   return (
-    <>
+    <section id="teams">
       <div className=" body-font relative">
         <div className="container px-5 py-24 mx-auto h-full flex flex-col">
           <div className="flex flex-col h-full text-center w-full mb-20">
@@ -73,7 +73,7 @@ const TeamSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

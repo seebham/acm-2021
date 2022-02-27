@@ -57,7 +57,9 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="link">Events</a>
+                <Link href="/#events">
+                  <a className="link">Events</a>
+                </Link>
               </li>
               <li>
                 <a className="link">About</a>

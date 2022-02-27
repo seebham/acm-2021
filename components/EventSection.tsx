@@ -4,7 +4,7 @@ import PastEvent from "./PastEvent";
 
 const EventSection = () => {
   return (
-    <div className="">
+    <section id="events" className="">
       <div className="flex flex-col items-center">
         <h2 className="text-4xl font-semibold">Events</h2>
         {upcoming_events.length > 0 && (
@@ -41,7 +41,7 @@ const EventSection = () => {
           <PastEvent />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

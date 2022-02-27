@@ -10,7 +10,7 @@ import TeamSection from "../components/TeamSection";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-gray-600 body-font">
+    <div className="text-gray-600 body-font scroll-smooth">
       <Head>
         <title>YCCE ACM Student Chapter</title>
         <meta name="description" content="ACM Student Chapter Website" />
