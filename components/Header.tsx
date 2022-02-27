@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <header>
@@ -6,9 +8,15 @@ const Header = () => {
           <span className="text-xl">YCCE ACM Student Chapter</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 link">Events</a>
-          <a className="mr-5 link">About</a>
-          <a className="mr-5 link">Team</a>
+          <Link href="/#events">
+            <a className="mr-5 link">Events</a>
+          </Link>
+          <Link href="/#about">
+            <a className="mr-5 link">About</a>
+          </Link>
+          <Link href="/#teams">
+            <a className="mr-5 link">Team</a>
+          </Link>
         </nav>
       </div>
     </header>

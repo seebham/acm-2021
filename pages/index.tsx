@@ -5,12 +5,12 @@ import EventCard from "../components/EventCard";
 import EventSection from "../components/EventSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import past_events from "../data/past_events";
+import TeamSection from "../components/TeamSection";
 // import EventsIllustration from "images/undraw_pair_programming_re_or4x.png";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-gray-600 body-font">
+    <div className="text-gray-600 body-font scroll-smooth">
       <Head>
         <title>YCCE ACM Student Chapter</title>
         <meta name="description" content="ACM Student Chapter Website" />
@@ -24,6 +24,7 @@ const Home: NextPage = () => {
         </div> */}
         <section className="container mx-auto min-h-screen py-4 px-5">
           <EventSection />
+          <TeamSection />
         </section>
       </main>
       <Footer />
