@@ -6,7 +6,7 @@ const EventCard = ({
   attendees,
 }: EventCardComponentType) => {
   return (
-    <div className="w-4/5 md:w-1/2 border-2 border-gray-500 rounded-lg p-6 shadow-lg">
+    <div className=" border-2 border-gray-500 rounded-lg p-6 shadow-md">
       {/* Event Title */}
       <div className="text-lg font-semibold">{title}</div>
 

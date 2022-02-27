@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import EventCard from "../components/EventCard";
+import EventSection from "../components/EventSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+// import EventsIllustration from "images/undraw_pair_programming_re_or4x.png";
 
 const Home: NextPage = () => {
   return (
@@ -15,15 +18,11 @@ const Home: NextPage = () => {
 
       <Header />
       <main>
-        <div className="text-3xl">ACM Student Chapter - YCCE</div>
-        <section className="container mx-auto h-screen flex flex-col py-4 px-2 items-center">
-          <EventCard
-            date="22-11-2020"
-            title="16 Hours SDP on ReactJS and NodeJS"
-            speaker={"Mr. Ahfaz Rahman"}
-            desc="16 Hrs SDP on React and Node JS was organised by the department. Mr. Ahafaz Rahaman from TCS Nagpur was the resource person"
-            attendees={90}
-          />
+        {/* <div className="text-3xl p-4 bg-gray-200">
+          ACM Student Chapter - YCCE
+        </div> */}
+        <section className="container mx-auto min-h-screen py-4 px-5">
+          <EventSection />
         </section>
       </main>
       <Footer />
